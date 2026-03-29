@@ -204,7 +204,7 @@ class Program
 
         // Declare and initialize array
         int[] numbers = { 10, 20, 30, 40, 50 };
-        string[] fruits = new string[3] { "Apple", "Banana", "Orange" };
+        string[] fruits = { "Apple", "Banana", "Orange" };
 
         Console.WriteLine($"Array length: {numbers.Length}");
         Console.WriteLine($"First element: {numbers[0]}");
