@@ -225,29 +225,8 @@ class Program
         }
         Console.WriteLine("\n");
 
-        // ==================== MULTI-DIMENSIONAL ARRAYS ====================
-        Console.WriteLine("--- 10. MULTI-DIMENSIONAL ARRAYS ---");
-
-        // 2D array (matrix)
-        int[,] matrix = {
-            { 1, 2, 3 },
-            { 4, 5, 6 },
-            { 7, 8, 9 }
-        };
-
-        Console.WriteLine("2D Array (3x3 matrix):");
-        for (int row = 0; row < 3; row++)
-        {
-            for (int col = 0; col < 3; col++)
-            {
-                Console.Write($"{matrix[row, col]} ");
-            }
-            Console.WriteLine();
-        }
-        Console.WriteLine();
-
         // ==================== METHODS/FUNCTIONS ====================
-        Console.WriteLine("--- 11. METHODS/FUNCTIONS ---");
+        Console.WriteLine("--- 10. METHODS/FUNCTIONS ---");
 
         // Call methods defined below Main
         SayHello();
